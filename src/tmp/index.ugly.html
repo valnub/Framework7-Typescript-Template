@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html ng-app="Typework7">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Typework7</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    
+    <!-- Header -->
+  <!-- Status bar overlay for fullscreen mode-->
+  <div class="statusbar-overlay"></div>
+
+  <!-- Panels overlay-->
+  <div class="panel-overlay"></div>
+
+  <!-- Left panel with reveal effect-->
+  <div class="panel panel-right panel-reveal">
+    <div class="content-block"><p>Navigation
+      </p>
+    </div>
+  </div>
+<!-- /Header -->
+    
+    <!-- Views-->
+    <div class="views">
+      
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        
+        <!-- Top Navbar-->
+<div class="navbar">
+
+  <!-- Navbar page 1 -->
+  <div class="navbar-inner">
+    <div class="center sliding">Typework7</div>
+    <div class="right">
+      <a href="#" class="link icon-only open-panel">
+        <i class="icon icon-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Navbar page 2 -->
+  <div class="navbar-inner cached" data-page="page2">
+
+    <a href="index" class="left link back">
+        <i class="icon icon-back"></i>
+        <span>Back</span>
+    </a>
+
+    <div class="center sliding">Page 2</div>
+
+    <div class="right">
+      <a href="#" class="link icon-only open-panel">
+        <i class="icon icon-bars"></i>
+      </a>
+    </div>
+
+  </div>
+
+</div>
+        
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          
+          <!-- - [Page 1] ---------------------------------------- -->
+          <div data-page="index" class="page" ng-controller="IndexPageController">
+  <!-- Page content-->
+  <div class="page-content">
+    <div class="list-block">
+      
+      <div style="cursor:pointer" ng-click="events.onClick()">{{message.title}}</div>
+      
+      <br>
+      
+      <ul>
+        <!--
+        <li ng-repeat="page in pages">
+          <a href="#index" class="item-link">
+            <div class="item-content">
+              <div class="item-inner"> 
+                <div class="item-title"></div>
+              </div>
+            </div>
+          </a>
+        </li>
+        -->
+
+        <li>
+          <a href="#page2" class="item-link">
+            <div class="item-content"> 
+              <div class="item-inner">
+                <div class="item-title">Go to page 2</div>
+              </div>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</div>
+          
+          <!-- - [Page 2] ---------------------------------------- -->
+          <div data-page="page2" class="page cached">
+  <!-- Page content-->
+  <div class="page-content">
+    <div class="list-block">
+      This is page 2
+    </div>
+  </div>
+</div>
+          
+        </div>
+        
+        <!-- Bottom Toolbar-->
+        <!--
+        <div class="toolbar">
+        </div>
+        -->
+        
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+
+<!-- Dev only! Removes this for live build -->
+<script src="//localhost:35729/livereload.js"></script>
+
+<script type="text/javascript" src="js/Typework7/AngularApp.js"></script>
+<script type="text/javascript" src="js/Typework7/pages/PageController.js"></script>
+<script type="text/javascript" src="js/Typework7/pages/IndexPageController.js"></script>
+<script type="text/javascript" src="js/Typework7/init.js"></script>
+    
+  </body>
+</html>
