@@ -13,7 +13,7 @@ Make sure you have Node, grunt, gem and compass installed.
 
 ## Demo
 
-To see the result just open index.html from dest/ folder.
+To see the result just open index.html from build/ folder.
 
 ## Get started coding
 
