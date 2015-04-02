@@ -1,6 +1,7 @@
 # Typework 7
 
 ## A template for Framework7 based on TypeScript, AngularJS, SASS and Grunt
+Made with <3 by www.timo-ernst.net
 
 ## How to build
 
