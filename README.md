@@ -16,6 +16,8 @@ Make sure you have Node, grunt, gem and compass installed.
 
 To see the result just open index.html from build/ folder.
 
+Or you can check this live demo in your browser that I built on top of this template: http://www.timo-ernst.net/2015/04/a-movie-list-demo-app-built-with-framework7-and-angular
+
 ## Get started coding
 
 Good start points to dive into the code are:
