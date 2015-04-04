@@ -8,7 +8,9 @@ var Typework7;
         }
         Init.prototype.configApp = function () {
             // Initialize your app
-            this.fw7App = new Framework7();
+            this.fw7App = new Framework7({
+                animateNavBackIcon: true
+            });
             this.fw7ViewOptions = {
                 // Because we use fixed-through navbar we can enable dynamic navbar
                 dynamicNavbar: true,
