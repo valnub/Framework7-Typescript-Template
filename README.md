@@ -6,6 +6,7 @@ Made with <3 by www.timo-ernst.net
 ## How to build
 
 1) No complicated bower or yeoman stuff. Just get from Github.
+
 2) Then, do `npm install` and then `grunt compile` to compile and copy everything from /src to /build. Default task for grunt is “watch” which you can use for auto-compile and -reload in the browser when you do changes in /src.
 
 Make sure you have Node, grunt, gem and compass installed.
