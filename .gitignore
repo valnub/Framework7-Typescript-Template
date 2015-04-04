@@ -2,3 +2,5 @@
 .idea
 npm-debug.log
 .sass-cache
+node_modules
+build
