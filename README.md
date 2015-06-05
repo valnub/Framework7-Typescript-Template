@@ -23,6 +23,10 @@ Good start points to dive into the code are:
 - For Scripts: src/ts/Typework7/init.ts
 - For Styles: src/sass
 
+## To complicated?
+
+There is a simpler version available which only uses html, css and javascript. No npm, no grunt, no TypeScript, no SASS. If you like things simple, get it here: https://github.com/valnub/Framework7-Pure-Angular-Template
+
 ## Credits & Links
 
 - Template is based on this tutorial which is also a good place to start for Angular+TypeScript: https://kodeyak.wordpress.com/2014/02/12/angularjs-via-typescript-controllers/
