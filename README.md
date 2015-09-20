@@ -13,7 +13,7 @@ Made with <3 by www.timo-ernst.net
 
 To see the result just call `grunt compile` and then open index.html from `build` folder.
 
-Or you can check this live demo in your browser that I built on top of this template: http://www.timo-ernst.net/2015/04/a-movie-list-demo-app-built-with-framework7-and-angular
+Or you can check this live demo in your browser that I built on top of this template: http://timo-ernst.net/blog/2015/04/02/experiment-an-iphone-app-built-with-framework7-typescript-and-angularjs/
 
 ## Get started coding
 
