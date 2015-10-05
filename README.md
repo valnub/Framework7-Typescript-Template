@@ -3,6 +3,11 @@
 ## A template for Framework7 based on TypeScript, AngularJS, SASS and Grunt
 Made with <3 by www.timo-ernst.net
 
+## Important! Read this first
+This is a template for Framework7 apps built on TypeScript, SASS, Grunt and AngularJS. From my experience so far I discovered that TypeScript is really complicated and not much fun to use with F7 and Angular. Also, some people seem to struggle with the grunt compile process. So, I created a new, easier template without any fancy stuff, just plain HTML, CSS and JavaScript which I can recommend to get started for beginners: https://github.com/valnub/Framework7-Pure-Angular-Template
+
+The brave ones who want to dive into the funky TypeScript fun, read on:
+
 ## How to build
 
 1) No complicated bower or yeoman stuff. Just get from Github.
@@ -25,7 +30,7 @@ Good start points to dive into the code are:
 
 ## To complicated?
 
-There is a simpler version available which only uses html, css and javascript. No npm, no grunt, no TypeScript, no SASS. If you like things simple, get it here: https://github.com/valnub/Framework7-Pure-Angular-Template
+There is a simpler version of this template available which only uses html, css and javascript. No npm, no grunt, no TypeScript, no SASS. If you like things simple, get it here: https://github.com/valnub/Framework7-Pure-Angular-Template
 
 ## Credits & Links
 
